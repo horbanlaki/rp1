@@ -1,0 +1,177 @@
+.background {
+    -fx-background-color: #BDBDBD;
+}
+.background1 {
+    -fx-background-color: #795548;
+}
+.background2 {
+    -fx-background-color: #3E2723;
+}
+.addbtn {
+    -fx-graphic: url(../images/add1.png);
+}
+.loginbtn {
+    -fx-background-color: #FFF;
+}
+.editbtn {
+    -fx-graphic: url(../images/edit1.png);
+}
+
+.deletebtn {
+    -fx-graphic: url(../images/delete1.png);
+}
+
+.okbtn {
+    -fx-graphic: url(../images/ok.png);
+}
+
+.cancelbtn {
+    -fx-graphic: url(../images/cancel.png);
+}
+
+.label {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Roboto";
+    -fx-text-fill: #212121;
+    -fx-opacity: 0.8;
+}
+
+.label-bright {
+    -fx-font-size: 11pt;
+    -fx-font-family: "Roboto";
+    -fx-text-fill: #FFF;
+    -fx-opacity: 1;
+}
+
+.label-about {
+    -fx-font-size: 25pt;
+    -fx-font-family: "Roboto";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.label-header {
+    -fx-font-size: 32pt;
+    -fx-font-family: "Roboto Thin";
+    -fx-text-fill: white;
+    -fx-opacity: 1;
+}
+
+.table-view {
+    -fx-base: #616161;
+    -fx-control-inner-background: #616161;
+    -fx-background-color: #616161;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 5;
+}
+
+.hbox {
+    -fx-base: #FFFDE7;
+    -fx-background-color: #FFFDE7;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-border-color: 
+        transparent
+        transparent
+        derive(-fx-base, 80%) 
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 23pt;
+    -fx-font-family: "Roboto Thin";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-border-color: transparent #1d1d1d transparent #1d1d1d;
+    -fx-background-color: transparent, derive(#1d1d1d,20%);
+}
+
+.split-pane {
+    -fx-padding: 1 0 0 0;
+}
+
+.menu-bar {
+    -fx-background-color: derive(#212121,20%);
+}
+
+.context-menu {
+    -fx-background-color: derive(#1d1d1d,50%);
+}
+
+.menu-bar .label {
+    -fx-font-size: 14pt;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-opacity: 0.9;
+}
+
+.menu .left-container {
+	-fx-background-color: black;
+}
+
+.text-field {
+    -fx-font-size: 12pt;
+    -fx-font-family: "Roboto Light";
+}
+
+.button {
+    /*-fx-padding: 5 22 5 22;*/
+    -fx-border-color: #6D4C41;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: #424242;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #FAFAFA;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+
+.button:hover {
+    -fx-background-color: #757575;
+}
+
+.button:pressed, .button:default:hover:pressed {
+  -fx-background-color: #E0E0E0;
+  -fx-text-fill: #1d1d1d;
+}
+
+/*.button:focused {
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}*/
+
+.button:disabled, .button:default:disabled {
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default {
+    -fx-background-color: -fx-focus-color;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover {
+    -fx-background-color: derive(-fx-focus-color,30%);
+}

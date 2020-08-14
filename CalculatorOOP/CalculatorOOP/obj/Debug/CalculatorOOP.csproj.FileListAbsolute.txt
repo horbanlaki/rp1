@@ -1,0 +1,7 @@
+C:\Users\terminator\source\repos\CalculatorOOP\bin\Debug\CalculatorOOP.exe.config
+C:\Users\terminator\source\repos\CalculatorOOP\bin\Debug\CalculatorOOP.exe
+C:\Users\terminator\source\repos\CalculatorOOP\bin\Debug\CalculatorOOP.pdb
+C:\Users\terminator\source\repos\CalculatorOOP\obj\Debug\CalculatorOOP.csprojResolveAssemblyReference.cache
+C:\Users\terminator\source\repos\CalculatorOOP\obj\Debug\CalculatorOOP.csproj.CoreCompileInputs.cache
+C:\Users\terminator\source\repos\CalculatorOOP\obj\Debug\CalculatorOOP.exe
+C:\Users\terminator\source\repos\CalculatorOOP\obj\Debug\CalculatorOOP.pdb

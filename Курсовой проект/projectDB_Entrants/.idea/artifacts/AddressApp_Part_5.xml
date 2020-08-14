@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="AddressApp-Part-5">
+    <output-path>$PROJECT_DIR$/out/artifacts/AddressApp_Part_5</output-path>
+    <root id="root">
+      <element id="archive" name="AddressApp_Part_5.jar">
+        <element id="module-output" name="AddressApp-Part-5" />
+      </element>
+    </root>
+  </artifact>
+</component>
